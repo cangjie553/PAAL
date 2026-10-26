@@ -26,7 +26,7 @@ Yue Jian<sup>1</sup>, Lin Li<sup>1,\*</sup>, Kaize Shi<sup>2</sup>, Junwei Zhou<
 Real-world knowledge graphs do not just grow as new facts arrive; their topology changes too, so the structure of newly added triples can drift away from that of historical data. **PAAL** handles this *structural distribution shift* with relation-level structural anchors: it checks how well each incoming triple agrees with its relation's anchor and uses this calibrated signal to decide how strongly previously learned knowledge should be preserved. PAAL raises average H@1 by **11.77%** on pattern-shift CKGE benchmarks and by **9.29%** on standard ones.
 
 <p align="center">
-  <img src="image/Figure2.png" width="95%" alt="Overview of the PAAL framework">
+  <img src="Figure2.png" width="95%" alt="Overview of the PAAL framework">
 </p>
 
 - **(a) Structural Pattern Anchor**: extracts a topological feature vector for every triple, aggregates these features per relation with density-aware weighting, and evolves each relation anchor from the previous snapshot with momentum.
