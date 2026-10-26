@@ -65,14 +65,6 @@ The code runs with **Python 3.10**, **PyTorch 1.13.1** and **CUDA 11.7**. Key de
 | Visualization | `matplotlib==3.9.2`, `seaborn==0.13.2`, `pillow==10.4.0` |
 | Supporting libraries | `typing_extensions==4.12.2`, `python-dateutil==2.9.0.post0`, `pytz==2024.2`, `tzdata==2024.2`, `contourpy==1.2.1`, `cycler==0.12.1`, `fonttools==4.53.1`, `kiwisolver==1.4.5`, `pyparsing==3.1.2`, `wcwidth==0.2.13` |
 
-Set up the environment:
-
-```bash
-git clone https://github.com/cangjie553/PAAL.git && cd PAAL
-
-conda create -n paal python=3.10 -y && conda activate paal
-pip install -r requirements.txt
-```
 
 ## 🚀 Quick Start
 
